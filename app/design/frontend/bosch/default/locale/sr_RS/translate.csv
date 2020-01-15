@@ -1,0 +1,391 @@
+/Header/,
+,
+This is a demo store. Any orders placed through this store will not be honored or fulfilled.,Ovo je DEMO internet prodavnica. Za vreme test faze narudžbe neće biti obrađene i naručeni artikli neće biti isporučeni.
+login,Prijava
+Log In,Prijava
+Log Out,Odjava
+Signup,Registracija
+Register,Registracija
+or,ili
+My Account,Moj Nalog
+My Wishlist,Moja Lista
+My Cart,Moja Korpa
+Checkout,Naplata
+You have no items in your shopping cart.,Korpa je prazna.
+Search entire store here...,Unesite pojam za pretragu...
+Search,Pretraga
+Advanced Search,Detaljna Pretraga
+Allow,Slažem se
+,
+/Login or Create an Account/,
+,
+Login or Create an Account,Ulogujte se ili registrujte nov nalog
+New Customers,Za nove članove
+Registered Customers,Za registrovane članove
+"By creating an account with our store, you will be able to move through the checkout process faster, store multiple shipping addresses, view and track your orders in your account and more.","Registrovanjem naloga u našoj prodavnici svaka naredna kupovina će biti brža, jer će Vaši podaci, adrese i kontakti već biti snimljeni u našoj bazi. Možete snimiti više različitih adresa na koje želite da imate isporuke. Pratićete status svake Vaše narudžbe u okviru posebne stranice sa Vašim nalogom i podacima. Vaš nalog je dostupan u svakom momentu. Svi podaci su sigurni i u potpunosti se poštuje Vaša privatnost. Uvek ih možete promeniti, kao i druge razne opcije koje se nude u okviru Vašeg naloga."
+Create an Account,Registrujte nov nalog
+"If you have an account with us, please log in.","Ukoliko imate registrovan nalog, unesite potrebne podatke."
+Email Address,Email adresa
+Please enter a valid email address. For example johndoe@domain.com.,Unesite email adresu u odgovarajućem formatu. Npr.  johndoe@domain.com.
+Password,Šifra
+Confirm Password,Ponovite šifru
+Forgot Your Password?,Zaboravili ste šifru?
+* Required Fields,* Obavezna polja
+Personal Information,Lični podaci
+First Name,Ime
+Last Name,Prezime
+Sign Up for Newsletter,Želim da primam Newsletter
+Address Information,Podaci o adresi
+Street Address,Ulica i broj
+Login Information,Kreiranje šifre
+Please enter 6 or more characters. Leading or trailing spaces will be ignored.,Unesite 6 ili više karaktera. Prazna mesta će biti ignorisana.
+Please make sure your passwords match.,Unešena šifra ne odgovara originalu.
+Submit,Potvrdi
+Back,Nazad
+Retrieve your password here,Resetujte Vašu šifru ovde
+Please enter your email address below. You will receive a link to reset your password.,Molimo Vas da unesete Vašu email adresu sa kojom ste registrovali nalog. Na tu adresu ćemo poslati link za resetovanje Vaše šifre.
+Back to Login,Nazad na login
+,
+/My dashboard/,
+,
+Thank you for registering with %s.,Hvala Vam što ste registrovali nalog kod nas.
+The account information has been saved.,Informacije o nalogu su snimljene.
+The subscription has been saved.,Prijava je snimljena.
+The subscription has been removed.,Odjava je snimljena.
+The address has been saved.,Adresa je snimljena.
+An error occurred while saving your subscription.,Za vreme snimanja Vaše prijave došlo je do greške. Molimo Vas da pokušate ponovo.
+You are now logged out,Uspešno ste se odlogovali
+You have logged out and will be redirected to our homepage in %s seconds.,Sada ste odlogovani i za %s sekundi će se otvoriti početna stranica.
+My Dashboard,Moj Nalog
+"Hello, %s!",Dobrodošli/a %s!
+From your My Account Dashboard you have the ability to view a snapshot of your recent account activity and update your account information. Select a link below to view or edit information.,"Na stranici 'Moj Nalog' možete pratiti statuse Vaših narudžbi, izvršiti pregled Vaših nedavnih aktivnosti u Internet prodavnici i po potrebi promeniti Vaše podatke."
+Account Dashboard,Osnovne Informacije
+Account Information,Informacije o Nalogu
+Edit,Izmeni
+Change Password,Promeni Šifru
+Newsletters,Newsletter
+You are currently not subscribed to any newsletter.,Trenutno niste prijavljeni na listu za primenje newsletter-a.
+You are currently subscribed to 'General Subscription'.,Trenutno ste prijavljeni na listu za primenje newsletter-a.
+Address Book,Adresar
+Manage Addresses,Upravljanje Adresama
+Default Billing Address,Osnovna Adresa za Naplatu
+Default Shipping Address,Osnovna Adresa za Isporuku
+Edit Address,Izmeni Adresu
+Save Address,Snimi Adresu
+Add New Address,Dodaj Novu Adresu
+Default Addresses,Osnovne Adrese
+Change Billing Address,Izmeni Adresu za Naplatu
+Change Shipping Address,Izmeni Adresu za Isporuku
+Additional Address Entries,Unete Dodatne Adrese
+You have no additional address entries in your address book.,Niste uneli dodatne adrese u Vaš adresar.
+Delete Address,Obriši Adresu
+Edit Account Information,Izmena Informacija o Nalogu
+Save,Snimi
+Current Password,Postojeća Šifra
+New Password,Nova Šifra
+Confirm New Password,Ponovite Novu Šifru
+Newsletter Subscription,Prijava/Odjava za Newsletter
+General Subscription,Želim da primam Newsletter
+My Orders,Moje Narudžbe
+You have placed no orders.,Do sada niste ništa naručili.
+Newsletter Subscriptions,Newsletter
+You have no items in your wishlist.,Nemate ubačenih artikala u Listu Želja.
+You have not set a default billing address.,Niste uneli osnovnu adresu za naplatu.
+You have not set a default shipping address.,Niste uneli osnovnu adresu za isporuku.
+,
+/Contact/,
+,
+Contact Us,Kontakt
+Contact Information,Kontakt informacije
+Comment,Poruka
+Name and Surname,Ime
+Your inquiry was submitted and will be responded to as soon as possible. Thank you for contacting us.,Vaš upit je poslat i biće odgovoreno u najkraćem mogućem roku. Hvala što ste nas kontaktirali.
+,
+/Product contact/,
+,
+Productcontact,Upit o Proizvodu
+Product contact,Upit o Proizvodu
+Manage contact,Upravljanje upitom
+Manager Product Contact,Upravljanje Upitima o Proizvodima
+different emails separated by comma,different emails separated by comma
+Contact Information,Kontakt Informacije
+Company Name,Kompanija
+Personal Name,Ime i Prezime
+Address,Adresa i Broj
+Zipcode,Poštanski Broj
+City,Mesto
+Country,Država
+Phone,Telefon
+Fax,Fax
+Email,Email
+Website,Adresa Websajta
+Refresh,Osveži
+Enter the text above," ""Unesite tekst iznad"""
+Detail," ""Pitanje"""
+,
+/Home page tabs/,
+,
+New Products,Novi Artikli
+Featured Products,Popularni Artikli
+On Sale,Akcija
+,
+/Newsletter/,
+,
+Sign Up for Our Newsletter:,Newsletter prijava
+Subscribe,Prijava
+,
+/Recently viewed products/,
+,
+Recently Viewed Products,Pregledani Artikli
+,
+/Compare/,
+,
+Compare Products,Poredjenje Artikala
+Compare Products (%s),Poredjenje Artikala (%s)
+You have no items to compare.,Odaberite artikle za poređenje.
+Remove This Item,Ukloni iz liste
+Are you sure you would like to remove this item from the compare products?,Da li ste sigurni da želite da uklonite ovaj artikal iz liste za poređenje?
+Are you sure you would like to remove all products from your comparison?,Da li ste sigurni da želite da uklonite sve artikle iz liste za poređenje?
+Compare,Uporedi
+Print This Page,Štampanje ove stranice
+Close Window,Zatvori prozor
+Recently Compared Products,Uporedjeni Artikli
+,
+/Community Poll/,
+,
+Community Poll,Anketa
+Vote,Glasaj
+,
+/Tags/,
+,
+Popular Tags,Popularni Tagovi
+View All Tags,Svi Tagovi
+All Tags,Svi Tagovi
+Products tagged with '%s',Artikli sa tagom '%s'
+Product Tags,Tagovi
+Other people marked this product with these tags:,Drugi posetioci dodelili su ovom artiklu sledeće tagove:
+Add Your Tags:,Dodaj svoje tagove
+Add Tags,Dodaj Tagove
+Use spaces to separate tags. Use single quotes (') for phrases.,Koristi taster space za razdvajanje više tagova. Koristi apostrof (') za fraze od više reči.
+,
+/Search Results/,
+,
+Search results for '%s',Rezultati pretrage za '%s'
+Search results for: '%s',Rezultati pretrage za: '%s'
+,
+/Popular Search Terms/,
+,
+Popular Search Terms,Najtraženije fraze u pretrazi
+There are no search terms available.,Trenutno ne postoje fraze za prikaz.
+,
+/Catalog Advanced Search/,
+,
+Catalog Advanced Search,Detaljna pretraga
+Search Settings,Odaberite opcije za pretragu:
+All,Sve
+,
+/Site Map/,
+,
+Categories,Kategorije
+Products,Proizvodi
+Products Sitemap,Site Map za proizvode
+Categories Sitemap,Site Map za kategorije
+,
+/Category Page/,
+,
+There are no products matching the selection.,Trenutno ne postoje artikli za prikaz.
+The product %s has been added to comparison list.,%s je dodat(a) u listu za poređenje.
+The product %s has been removed from comparison list.,%s je uklonjen(a) iz liste za poređenje.
+The comparison list was cleared.,Uklonjeni su svi artikli iz liste za poređenje.
+Your search returns no results.,Nisu pronađeni rezultati pretrage. Pokušajte ponovo sa drugačijim upitom.
+View as,Način prikaza
+Grid,Mreža
+List,Lista
+Page:,Strana:
+Show,Prikaz
+per page,po strani
+Items %s to %s of %s total,Proizvodi od %s do %s od %s ukupno
+%s Item(s),%s proizvod(a)
+Sort By,Sortiranje Po
+Position,Pozicija
+Name,Naziv
+Special Price: %s,Na akciji: %s
+Price,Cena
+Set Descending Direction,Odaberi Opadajući Niz
+Set Ascending Direction,Odaberi Rastući Niz
+%d Review(s),%d Komentar(a)
+Regular Price:,
+Special Price,Na akciji
+Add to Cart,Dodaj u Korpu
+Out of stock,Nema na lageru
+Add to Wishlist,Dodaj u svoju Listu želja
+Add to Compare,Dodaj u Listu za poređenje
+Learn More,Više informacija
+Shop By,Filter Meni
+Shopping Options,Opcije:
+Category,Kategorija
+Currently Shopping by:,Odabrani filteri:
+Clear All,Ukloni sve
+Price filter not available.,Ne postoji filter za cenu.
+New,Novo
+Sales,Akcija
+Previous,Prethodna
+Next,Sledeća
+Browse By,Kategorije:
+There are no new products.,Trenutno nema novih artikala.
+There are no feature products.,Trenutno nema popularnih artikala.
+,
+/Product Page/,
+,
+"The requested quantity for ""%s"" is not available.","Tražena količina za ""%s"" nije raspoloživa."
+Email to a Friend,Pošalji Email prijatelju i preporuči
+Availability:,Dostupnost:
+In stock,Na lageru
+Qty:,Količina:
+OR,
+Quick Overview,Kratak Opis
+Double click on above image to view full picture,Za veliku sliku klikni dva puta na sliku iznad
+Zoom Out,Odzumiranje
+Zoom In,Zumiranje
+Product Description,Opis Proizvoda
+Additional Information,Specifikacija
+Related Products,Izdvajamo iz Ponude
+Check items to add to the cart or,"Odaberite artikal pojedinačno za dodatak korpi, ili"
+select all,odaberite sve artikle
+unselect all,uklonite sve artikle iz selekcije
+N/A,Nema informacije
+No,Nema informacije
+,
+/Manage Attachments/,
+,
+Add Item,Dodaj Attachment
+Are you sure?,Da li ste sigurni?
+Attachment,Attachment
+Attribute Set Name,Set Filtera
+Attrib. Set Name,Set Filtera
+Content-Disposition,Način Prikaza
+Content-Disposiotion,Način Prikaza
+Delete,Obriši
+Delete File,Obriši File
+Delete Item,Obriši
+Details,Detalji
+Edit,Izmeni
+Edit Item '%s',Izmeni '%s'
+File,File
+File Information,File Informacije
+File Manager,Upravljanje Attachment-ima
+File was successfully deleted,File je uspešno obrisan
+General Setting,Glavna Podešavanja
+ID,ID
+Inline,Prikaz
+Item Fileuploader,File Upload
+Item information,Informacije
+Item Information,Informacije
+Item Manager,Upravljanje
+Item does not exist,Ne postoji
+Item was successfully saved,Snimanje je uspešno
+Manage Attachments,Upravljanje Attachment-ima
+Name,Naziv
+Name in %s,Naziv u %s
+Please select item(s),Odaberi
+Price,Cena
+Product Attachment,Dodatni Dokument
+Product Attachments,Dodatni Dokumenti
+Product Description,Opis Proizvoda
+Product Information,Informacije o Proizvodu
+Products,Proizvodi
+Qty,Količina
+Save And Continue Edit,Snimi i Nastavi sa Izmenom
+Save Item,Snimi
+SKU,Šifra
+Sku,Šifra
+"Sorry, there was an error getting requested content.",Došlo je do greške.
+Sort Order,Sortiranje
+Status,Status
+Title,Naslov
+Total of %d record(s) were successfully updated,Ukupno je %d rekord(a) uspešno osvežen(o)
+Type,Vrsta
+Unable to find item to save,Nije pronađeno za snimanje
+Visibility,Vidljivost Proizvoda
+Websites,Websajtovi
+,
+/Shopping Cart/,
+,
+Shopping Cart is Empty,Vaša korpa je prazna!
+"Click <a href=""%s"">here</a> to continue shopping.","Kliknite <a href=""%s"">ovde</a> za nastavak kupovine."
+Are you sure you would like to remove this item from the shopping cart?,Da li ste sigurni da želite da uklonite ovaj artikal iz korpe?
+%s was added to your shopping cart.,%s je dodat(a) u Vašu korpu.
+My Cart (%s item),Moja Korpa (%s komad)
+My Cart (%s items),Moja Korpa (%s komada)
+"There are <a href=""%s"">%s item(s)</a> in your cart.","Imate <a href=""%s"">%s proizvod(a)</a> u Vašoj korpi."
+Recently added item(s),Nedavno dodati proizvod(i):
+Cart Subtotal:,Iznos:
+Shopping Cart,Moja Korpa
+Proceed to Checkout,Naručivanje
+Product Name,Naziv artikla
+Unit Price,Cena (kom.)
+Qty,Količina
+Subtotal,Iznos
+Remove item,Ukloni iz korpe
+Continue Shopping,Nastavak Kupovine
+Clear Shopping Cart,Ukloni Sve Artikle
+Update Shopping Cart,Ažuriranje Korpe
+Tax,PDV
+Grand Total Excl. Tax,Ukupno bez PDVa
+Grand Total (Excl.Tax),Ukupno (bez PDVa)
+Grand Total Incl. Tax,Ukupno sa PDVom
+Grand Total (Incl.Tax),Ukupno (sa PDVom)
+Grand Total,Ukupan Iznos
+,
+/Checkout/,
+,
+Login and password are required.,Potrebno je da unesete Vašu email adresu i šifru.
+Invalid login or password.,Netačna email adresa ili šifra.
+This is a required field.,Ovo je obavezno polje.
+Login,Ulogujte se
+Login to your Account,Za registrovane članove
+Please enter your email.,Unesite Vašu email adresu.
+Review Your Order,Pregled Vaše Narudžbe
+Name & Address,Podaci o Naručiocu
+Shipping Method,Način Isporuke
+Payment Method,Način Plaćanja
+Company,Naziv Firme
+Address,Ulica i broj
+City,Mesto
+State/Province,Region
+Zip/Postal Code,Poštanski Broj
+Country,Država
+Telephone,Telefon/Mobilni
+Tax/VAT number,PIB
+VAT Number,PIB
+Create an account for later use,Registrujte nov nalog
+Ship to this address,Isporuka na istu adresu
+Shipping Address,Adresa za Isporuku
+Discount Codes,Popust
+Enter your coupon code:,Unesite kod za popust:
+Apply,Potvrdi
+Please transfer the money within %s days to the following bank account,"Molimo Vas da uplatite traženi iznos na sledeći žiro račun, rezervacija važi %s radna dana"
+Account holder,Primalac
+Account number,Račun primaoca
+Sort code,Svrha uplate
+Bank name,Poziv na broj
+Place Order Now,Pošaljite Narudžbu
+Coupon code is not valid.,Kod za popust nije ispravan.
+Close,Zatvori prozor
+Shipping & Handling,Isporuka
+Your order # is: %s.,Broj Vaše narudžbe je: #%s.
+Item,Proizvod
+,
+/Order/,
+,
+Your order has been received.,Vaša narudžba je primljena.
+Thank you for your purchase!,Zahvaljujemo se na kupovini!
+Your order # is:,Broj Vaše narudžbe je: #
+You will receive an order confirmation email with details of your order and a link to track its progress.,Na Vašu email adresu primićete email sa detaljima za narudžbu i link na kome možete pratiti njen status.
+,
+/Attribute Info Page/,
+,
+Products by %s: %s,%s: %s
+Visit %s on the web,Posetite %s zvaničnu stranicu
+All brends,Brendovi
+Brends,Brendovi
