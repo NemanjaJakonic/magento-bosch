@@ -6,3 +6,6 @@ header::before {
     content: "";
     background: url(../images/shape_horizontal.svg) center center/cover no-repeat;
 }
+.header-container {
+    padding-top: 30px;
+}
