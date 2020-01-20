@@ -1,9 +1,12 @@
 <div class="container header-container">
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-3">
             <a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo">
                 <img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>"/>
             </a>
+        </div>
+        <div class="col-md-6">
+            <?php echo $this->getChildHtml('quick_links') ?>
         </div>
     </div>
 </div>

@@ -6,6 +6,13 @@
                 <template>page/2columns-right.phtml</template>
             </action>
         </reference>
+        <reference name="header">
+            <block type="cms/block" name="quick_links" as="quick_links">
+                <action method="setBlockId">
+                    <block_id>quick_links</block_id>
+                </action>
+            </block>
+        </reference>
         <reference name="head">
             <!-- Adding Javascripts -->
             <action method="addItem">
