@@ -1,5 +1,5 @@
 body {
-    font-family: "boschsans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "boschsans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #000;
 }
 
@@ -13,6 +13,7 @@ header::before {
     content: "";
     background: url(../images/shape_horizontal.svg) center center/cover no-repeat;
 }
+
 .header-container {
     padding-top: 40px;
 }
@@ -26,5 +27,22 @@ header::before {
     font-size: 12px;
 }
 
+/*Search*/
 
+.searchbar {
+    border-bottom: 1px solid #e6e6e6;
+    width: 60%;
+    margin: 0 auto;
+}
+
+input {
+    border: none;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
 
