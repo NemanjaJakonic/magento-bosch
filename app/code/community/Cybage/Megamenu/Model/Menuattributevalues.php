@@ -1,0 +1,124 @@
+<?php
+/**
+ * Cybage Megamenu Plugin 
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Open Software License (OSL 3.0)
+ * It is available on the World Wide Web at:
+ * http://opensource.org/licenses/osl-3.0.php
+ * If you are unable to access it on the World Wide Web, please send an email
+ * To: Support_ecom@cybage.com.  We will send you a copy of the source file.
+ *
+ * @category   Megamenu community plugin
+ * @package    Cybage_Megamenu
+ * @copyright  Copyright (c) 1995-2017[end year should change based on current year] Cybage Software Pvt. Ltd., India
+ *             http://www.cybage.com/pages/centers-of-excellence/ecommerce/ecommerce.aspx
+ * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ * @author     Cybage Software Pvt. Ltd. <Support_ecom@cybage.com>
+ */
+class Cybage_Megamenu_Model_Menuattributevalues extends Mage_Core_Model_Abstract
+{
+
+    public function _construct() 
+    {
+        parent::_construct();
+        $this->_init('megamenu/menuattributevalues');
+    }
+
+    /**
+     * save attrubute values 
+     *
+     * @param  type $menuId
+     * @param  type $mappingId
+     * @param  type $value
+     * @return type
+     */
+    public function saveValue($menuId, $mappingId, $value) 
+    {
+
+        // check if old value exists for this record
+        $vaild = $this->validate($menuId, $mappingId, $value);
+        // save value if valid returns 0
+        if ($vaild == 0) {
+            try{
+                parent::setData(
+                    array(
+                        'template_attribute_id' => $mappingId,
+                        'menu_id' => $menuId,
+                        'value' => $value,
+                        'created_time' => now(),
+                    'update_time' => now())
+                );
+                    parent::save();
+            }catch(Exception $e){
+                Mage::log($e);
+            }
+            
+        }
+    }
+
+    /**
+     * update if record found
+     *
+     * @param  type $menuId
+     * @param  type $mappingId
+     * @param  type $value
+     * @return int
+     */
+    public function validate($menuId, $mappingId, $value) 
+    {
+        $collection = parent::getCollection()
+                ->addFieldToSelect('entity_id')
+                ->addFieldToFilter('template_attribute_id', array(array('eq' => $mappingId)))
+                ->addFieldToFilter('menu_id', array(array('eq' => $menuId)));
+        $data = $collection->getData();
+        if (count($data) > 0) {
+            $entityId = $data[0]['entity_id'];
+            try{
+                $rowData = parent::load($entityId);
+                $rowData->setValue($value);
+                $rowData->save();
+                return 1;
+            }catch(Exception $e){
+                Mage::log($e);
+            }
+        } else {
+            return 0;
+        }
+    }
+
+    /**
+     * skip comman attribute values and send other for saving purpose from post data
+     *
+     * @param type $menuId
+     * @param type $data
+     */
+    public function processData($menuId, $data) 
+    {
+
+
+        foreach ($data as $key => $value) {
+            if (!empty($value)) {
+                $continuearray = array(
+                    'form_key','name','store_id','status','type_id','template_id',
+                    'header','footer','menu_icon'
+                );
+                if (in_array($key, $continuearray)) {
+                    continue;
+                } else {
+                    $typeId = $data['type_id'];
+                    $templateId = $data['template_id'];
+                    $attributeId = Mage::getModel('megamenu/attributes')->getAttributeId($key);
+                    $mappingId = Mage::getModel('megamenu/menuattributes')
+                            ->getMappingId($attributeId, $templateId);
+
+                    if (trim($mappingId) != '') {
+                        Mage::getModel('megamenu/menuattributevalues')->saveValue($menuId, $mappingId, $value);
+                    }
+                }
+            }
+        }
+    }
+
+}

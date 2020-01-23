@@ -46,3 +46,8 @@ button:focus {
     outline: none;
 }
 
+/*Navigation*/
+
+nav {
+    padding-top: 20px;
+}
