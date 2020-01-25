@@ -1,7 +1,7 @@
-<div class="block block-cart block-topcart">
+<div class="block block-cart block-topcart text-center">
     <?php $_cartQty = $this->getSummaryCount() ?>
     <div class="block-title"><i
-                class="fas fa-shopping-cart"></i><strong><span><?php echo $this->__('My Cart') ?></span></strong>
+                class="fas fa-shopping-cart"></i><strong><span> <?php echo $this->__('My Cart') ?></span></strong>
         <?php if ($_cartQty > 0): ?>
             <div class="summary">
                 <?php if ($_cartQty == 1): ?>

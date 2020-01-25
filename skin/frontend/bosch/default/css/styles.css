@@ -34,6 +34,9 @@ header::before {
     width: 60%;
     margin: 0 auto;
 }
+i.fas.fa-search:hover {
+    color: #00aa00;
+}
 
 input {
     border: none;
@@ -67,6 +70,10 @@ nav {
     opacity: 0;
     top: 105px;
     visibility: hidden;
+}
+
+.block-topcart a {
+    color: #00aa00;
 }
 
 .block-topcart:hover .block-content {
@@ -128,6 +135,8 @@ nav {
     background: url(../images/btn_gm-close.gif) center center/cover no-repeat;
     top: 20px;
 }
+
 .block-topcart .actions {
     clear: both;
 }
+
