@@ -140,3 +140,27 @@ nav {
     clear: both;
 }
 
+/*After Header*/
+
+#after-header {
+    padding-top: 10px;
+    border-top: 1px dotted #ccc;
+}
+
+/*Breadcrumbs*/
+
+.breadcrumbs ul li {
+    display: inline;
+    font-size: .75em;
+}
+.breadcrumbs a {
+    color: #ccc;
+}
+#after-header a {
+    color: #00aa00;
+}
+.mybosch a {
+    font-size: .75em;
+}
+
+

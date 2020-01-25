@@ -10,6 +10,39 @@
 <header>
     <?php echo $this->getChildHtml('header') ?>
 </header>
-
+<section id="after-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9">
+            <?php echo $this->getChildHtml('breadcrumbs') ?>
+            </div>
+            <div class="col-md-3">
+                <div class="mybosch text-center ">
+                <ul class="list-inline">
+                    <?php if ($this->helper('customer')->isLoggedIn()): ?>
+                        <li class="list-inline-item">
+                            <a title="<?php echo $this->__('My Account') ?>" href="<?php echo $this->getUrl('customer/account') ?>">
+                                <?php echo $this->__('My Account') ?>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a title="Log Out" href="<?php echo $this->getUrl('customer/account/logout') ?>">
+                                <?php echo $this->__('Logout') ?></a>
+                        </li>
+                    <?php else: ?>
+                        <li class="list-inline-item">
+                            <i class="fas fa-sign-in-alt"></i>
+                            <a href="<?php echo $this->getUrl('customer/account/login/')?>">
+                                <?php echo $this->__('Login') ?></a></li>
+                        <li class="list-inline-item">
+                            <i class="fas fa-sign-in-alt"></i><a href="<?php echo $this->getUrl('customer/account/create/')?>">
+                                <?php echo $this->__('Create Account') ?></a></li>
+                    <?php endif;?>
+                </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 </body>
 </html>
