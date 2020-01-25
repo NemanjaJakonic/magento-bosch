@@ -163,4 +163,17 @@ nav {
     font-size: .75em;
 }
 
+/*Footer*/
 
+#footer i {
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 50%;
+}
+#footer i:hover {
+    color: #00aa00;
+    cursor: pointer;
+}
+#footer a{
+    color: #000;
+}
