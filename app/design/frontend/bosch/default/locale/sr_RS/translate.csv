@@ -270,6 +270,7 @@ Delete File,Obriši File
 Delete Item,Obriši
 Details,Detalji
 Edit,Izmeni
+Edit item,Izmeni
 Edit Item '%s',Izmeni '%s'
 File,File
 File Information,File Informacije
@@ -317,7 +318,8 @@ Are you sure you would like to remove this item from the shopping cart?,Da li st
 %s was added to your shopping cart.,%s je dodat(a) u Vašu korpu.
 My Cart (%s item),Moja Korpa (%s komad)
 My Cart (%s items),Moja Korpa (%s komada)
-"There are <a href=""%s"">%s item(s)</a> in your cart.","Imate <a href=""%s"">%s proizvod(a)</a> u Vašoj korpi."
+"There is <a href=""%s"">1 item</a> in your cart.","Imate <a href=""%s"">1 proizvod</a> u Vašoj korpi."
+"There are <a href=""%s"">%s items</a> in your cart.","Imate <a href=""%s"">%s proizvoda</a> u Vašoj korpi."
 Recently added item(s),Nedavno dodati proizvod(i):
 Cart Subtotal:,Iznos:
 Shopping Cart,Moja Korpa
