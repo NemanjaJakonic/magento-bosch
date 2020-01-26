@@ -164,7 +164,7 @@ nav {
 
 /*Footer*/
 
-#footer i {
+.footer-container i {
     padding: 10px;
     border: 1px solid;
     border-radius: 50%;
@@ -173,7 +173,7 @@ nav {
     color: #00aa00;
     cursor: pointer;
 }
-#footer a{
+.footer-container a{
     color: #000;
 }
 .social-shares {
@@ -194,4 +194,18 @@ nav {
     font-size: 15px;
     display: block;
     padding: 0 0 10px 0;
+}
+#banner-before-footer {
+    padding: 50px 0;
+    background: url(../images/shape_vertical.svg) 50% 50%/cover;
+}
+#banner-before-footer,#banner-before-footer a  {
+    color: #fff;
+}
+#banner-before-footer .item {
+    border-right: 1px solid;
+    height: 100%;
+}
+#banner-before-footer .item-last {
+    border: none;
 }
