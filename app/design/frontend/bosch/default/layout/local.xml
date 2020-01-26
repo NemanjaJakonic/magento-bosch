@@ -36,6 +36,11 @@
             </block>
         </reference>
         <reference name="footer">
+            <block type="cms/block" name="footer-copyright" as="footer-copyright">
+                <action method="setBlockId">
+                    <block_id>footer-copyright</block_id>
+                </action>
+            </block>
             <block type="cms/block" name="footer-company" as="footer-company">
                 <action method="setBlockId">
                     <block_id>footer-company</block_id>

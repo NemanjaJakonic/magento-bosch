@@ -209,3 +209,24 @@ nav {
 #banner-before-footer .item-last {
     border: none;
 }
+footer::after {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 16px;
+    content: "";
+    background: url(../images/shape_horizontal.svg) center center/cover no-repeat;
+}
+
+/*Copyright*/
+
+.copyright {
+    font-size: 0.75rem;
+}
+.copyright a {
+    color: #000;
+}
+.copyright a:hover{
+    color: #00aa00;
+}
+
