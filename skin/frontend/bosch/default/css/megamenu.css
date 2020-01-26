@@ -10,7 +10,6 @@ ul, ol {
 #nav {
     font-size:11px;
     margin:0 auto;
-    width:960px;
     background:#000;
     color:#666;
 }
@@ -36,7 +35,7 @@ ul, ol {
 .megamenu #nav{
     position : relative;
     height:55px;
-    width:950px; padding:0;
+    padding:0;
 }
 .megamenu #nav .magestore-megamenu{
     background:#fff;
