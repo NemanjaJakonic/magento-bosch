@@ -26,8 +26,7 @@ header::before {
     outline: none;
     font-size: 12px;
 }
-
-/*Search*/
+    /*Search*/
 
 .searchbar {
     border-bottom: 1px solid #e6e6e6;
@@ -176,4 +175,23 @@ nav {
 }
 #footer a{
     color: #000;
+}
+.social-shares {
+     padding-bottom: 20px;
+     border-bottom: 1px dotted #ccc;
+ }
+.links {
+    padding-top: 20px;
+}
+#footer .footerLinksHolder .footerLink {
+    display: block;
+    margin: 0 0 10px 0;
+    font-weight: 400;
+    line-height: 1.2;
+}
+#footer .footerLinksHolder .footerTitle {
+    font-weight: bold;
+    font-size: 15px;
+    display: block;
+    padding: 0 0 10px 0;
 }

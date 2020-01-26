@@ -35,6 +35,28 @@
                 </block>
             </block>
         </reference>
+        <reference name="footer">
+            <block type="cms/block" name="footer-company" as="footer-company">
+                <action method="setBlockId">
+                    <block_id>footer-company</block_id>
+                </action>
+            </block>
+            <block type="cms/block" name="footer-information" as="footer-information">
+                <action method="setBlockId">
+                    <block_id>footer-information</block_id>
+                </action>
+            </block>
+            <block type="cms/block" name="footer-service" as="footer-service">
+                <action method="setBlockId">
+                    <block_id>footer-service</block_id>
+                </action>
+            </block>
+            <block type="cms/block" name="footer-retail" as="footer-retail">
+                <action method="setBlockId">
+                    <block_id>footer-retail</block_id>
+                </action>
+            </block>
+        </reference>
         <reference name="head">
             <!-- Adding Javascripts -->
             <action method="addItem">

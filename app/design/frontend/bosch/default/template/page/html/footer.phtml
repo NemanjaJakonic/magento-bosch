@@ -24,14 +24,16 @@
  * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  */
 ?>
-<div class="container footer-container fixed-bottom">
+<div class="container footer-container">
     <div class="social-shares">
         <div class="row">
             <div class="col-md-6">
-
+                <p>Share on:</p>
+                <div class="addthis_inline_share_toolbox"></div>
             </div>
             <div class="col-md-6">
                 <div class="social float-right">
+                    <p>Follow us on:</p>
                     <a href="https://www.facebook.com/BoschHomeSrbija" target="_blank"><i class="fab fa-facebook-f"></i></a>
                     <a href="https://www.youtube.com/user/boschkucniaparati" target="_blank"><i
                                 class="fab fa-youtube"></i></a>
@@ -39,5 +41,21 @@
             </div>
             </div>
         </div>
+    <div class="links">
+        <div class="row">
+            <div class="col-md-3">
+                <?php echo $this->getChildHtml('footer-company') ?>
+            </div>
+            <div class="col-md-3">
+                <?php echo $this->getChildHtml('footer-information') ?>
+            </div>
+            <div class="col-md-3">
+                <?php echo $this->getChildHtml('footer-service') ?>
+            </div>
+            <div class="col-md-3">
+                <?php echo $this->getChildHtml('footer-retail') ?>
+            </div>
+        </div>
+    </div>
     </div>
 </div>
